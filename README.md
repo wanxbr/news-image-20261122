@@ -1,0 +1,17 @@
+# make.fun Competition: news-image-20261122
+
+[![make.fun badge](https://make.fun/badge/news-image-20261122.svg)](https://make.fun/bounty/news-image-20261122)
+[![make.fun leaderboard](https://make.fun/badge/news-image-20261122/wanxbr-news-image-20261122/rank.svg)](https://make.fun/bounty/news-image-20261122)
+[![make.fun reward](https://make.fun/badge/news-image-20261122/wanxbr-news-image-20261122/reward.svg)](https://make.fun/bounty/news-image-20261122)
+
+## Entry Description
+
+This entry copies the source image `news-image-20261122.png` to the output directory as `entry.png`, validating that it is a valid PNG with dimensions 768×768 and size at most 1 MiB.
+
+## Running the Entry
+
+```bash
+MAKEFUN_OUTPUT_DIR=/path/to/output python3 main.py
+```
+
+The program prints the output path and byte size on success, or exits with a non-zero code and an error message on failure.
